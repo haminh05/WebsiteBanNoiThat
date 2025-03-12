@@ -28,3 +28,55 @@ body {
     display: block; /* Đảm bảo ảnh không bị lỗi hiển thị */
 }
 
+/*Logo layout*/
+/* Điều chỉnh kích thước logo */
+.navbar-brand img {
+    max-width: 150px; /* Giới hạn chiều rộng */
+    height: auto;
+}
+
+/* Định dạng thanh điều hướng */
+.navbar {
+    padding: 10px 20px;
+}
+
+/* Sidebar - Căn chỉnh danh mục sản phẩm */
+aside h5 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Điều chỉnh nút tìm kiếm */
+.d-flex .form-control {
+    max-width: 250px; /* Giới hạn độ rộng input */
+}
+
+.d-flex .btn {
+    margin-left: 5px;
+}
+
+/* Giỏ hàng và đăng nhập */
+.navbar-nav a {
+    padding: 8px 12px;
+}
+
+.navbar-nav .bi {
+    font-size: 18px;
+}
+
+/* Chỉnh footer */
+footer {
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+}

@@ -1,4 +1,4 @@
-namespace cnpm.Models
+namespace DoAn.Models
 {
     public class ErrorViewModel
     {

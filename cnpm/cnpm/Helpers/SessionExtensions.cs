@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace cnpm.Helpers
+namespace DoAn.Helpers
 {
     public static class SessionExtensions
     {

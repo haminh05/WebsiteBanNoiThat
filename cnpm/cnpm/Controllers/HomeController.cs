@@ -1,4 +1,4 @@
-﻿using cnpm.Models;
+﻿using DoAn.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -7,12 +7,12 @@ using X.PagedList.Mvc.Core;
 using System.Linq;
 using X.PagedList.Extensions;
 
-namespace cnpm.Controllers
+namespace DoAn.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        BiaContext db=new BiaContext();
+        NoiThatDbContext db=new NoiThatDbContext();
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;

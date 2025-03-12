@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace cnpm.ViewModels
+namespace DoAn.ViewModels
 {
     public class LoginViewModel
     {

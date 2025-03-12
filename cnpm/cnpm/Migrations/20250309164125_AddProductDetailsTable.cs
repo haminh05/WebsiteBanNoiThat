@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace cnpm.Migrations
+namespace DoAn.Migrations
 {
     /// <inheritdoc />
     public partial class AddProductDetailsTable : Migration

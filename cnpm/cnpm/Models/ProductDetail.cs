@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace cnpm.Models;
+namespace DoAn.Models;
 
 public partial class ProductDetail
 {
@@ -11,7 +11,7 @@ public partial class ProductDetail
 
     public string Material { get; set; } = null!;
 
-    public decimal Weight { get; set; }
+    public decimal Height { get; set; }
 
     public decimal Length { get; set; }
 

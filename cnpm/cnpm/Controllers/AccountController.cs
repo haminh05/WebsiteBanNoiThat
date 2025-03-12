@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using cnpm.Models;
-using cnpm.ViewModels;
+using DoAn.Models;
+using DoAn.ViewModels;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 
-namespace cnpm.Controllers
+namespace DoAn.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly BiaContext _context;
+        private readonly NoiThatDbContext _context;
 
-        public AccountController(BiaContext context)
+        public AccountController(NoiThatDbContext context)
         {
             _context = context;
         }

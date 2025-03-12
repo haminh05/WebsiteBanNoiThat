@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using cnpm.Models;
+using DoAn.Models;
 
 #nullable disable
 
-namespace cnpm.Migrations
+namespace DoAn.Migrations
 {
-    [DbContext(typeof(BiaContext))]
+    [DbContext(typeof(NoiThatDbContext))]
     [Migration("20250309133612_FirstUpdateDatabse")]
     partial class FirstUpdateDatabse
     {
@@ -25,7 +25,7 @@ namespace cnpm.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("cnpm.Models.Chat", b =>
+            modelBuilder.Entity("DoAn.Models.Chat", b =>
                 {
                     b.Property<int>("ChatId")
                         .ValueGeneratedOnAdd()
@@ -61,7 +61,7 @@ namespace cnpm.Migrations
                     b.ToTable("Chats");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Order", b =>
+            modelBuilder.Entity("DoAn.Models.Order", b =>
                 {
                     b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
@@ -95,7 +95,7 @@ namespace cnpm.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("cnpm.Models.OrderDetail", b =>
+            modelBuilder.Entity("DoAn.Models.OrderDetail", b =>
                 {
                     b.Property<int>("OrderDetailId")
                         .ValueGeneratedOnAdd()
@@ -128,7 +128,7 @@ namespace cnpm.Migrations
                     b.ToTable("OrderDetails");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Product", b =>
+            modelBuilder.Entity("DoAn.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd()
@@ -165,7 +165,7 @@ namespace cnpm.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Report", b =>
+            modelBuilder.Entity("DoAn.Models.Report", b =>
                 {
                     b.Property<int>("ReportId")
                         .ValueGeneratedOnAdd()
@@ -199,7 +199,7 @@ namespace cnpm.Migrations
                     b.ToTable("Reports");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Review", b =>
+            modelBuilder.Entity("DoAn.Models.Review", b =>
                 {
                     b.Property<int>("ReviewId")
                         .ValueGeneratedOnAdd()
@@ -237,7 +237,7 @@ namespace cnpm.Migrations
                     b.ToTable("Reviews");
                 });
 
-            modelBuilder.Entity("cnpm.Models.User", b =>
+            modelBuilder.Entity("DoAn.Models.User", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -278,14 +278,14 @@ namespace cnpm.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Chat", b =>
+            modelBuilder.Entity("DoAn.Models.Chat", b =>
                 {
-                    b.HasOne("cnpm.Models.User", "Receiver")
+                    b.HasOne("DoAn.Models.User", "Receiver")
                         .WithMany("ChatReceivers")
                         .HasForeignKey("ReceiverId")
                         .HasConstraintName("FK__Chats__ReceiverI__571DF1D5");
 
-                    b.HasOne("cnpm.Models.User", "Sender")
+                    b.HasOne("DoAn.Models.User", "Sender")
                         .WithMany("ChatSenders")
                         .HasForeignKey("SenderId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -297,9 +297,9 @@ namespace cnpm.Migrations
                     b.Navigation("Sender");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Order", b =>
+            modelBuilder.Entity("DoAn.Models.Order", b =>
                 {
-                    b.HasOne("cnpm.Models.User", "User")
+                    b.HasOne("DoAn.Models.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -309,16 +309,16 @@ namespace cnpm.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("cnpm.Models.OrderDetail", b =>
+            modelBuilder.Entity("DoAn.Models.OrderDetail", b =>
                 {
-                    b.HasOne("cnpm.Models.Order", "Order")
+                    b.HasOne("DoAn.Models.Order", "Order")
                         .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("FK__OrderDeta__Order__47DBAE45");
 
-                    b.HasOne("cnpm.Models.Product", "Product")
+                    b.HasOne("DoAn.Models.Product", "Product")
                         .WithMany("OrderDetails")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -330,9 +330,9 @@ namespace cnpm.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Report", b =>
+            modelBuilder.Entity("DoAn.Models.Report", b =>
                 {
-                    b.HasOne("cnpm.Models.User", "User")
+                    b.HasOne("DoAn.Models.User", "User")
                         .WithMany("Reports")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.SetNull)
@@ -341,16 +341,16 @@ namespace cnpm.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Review", b =>
+            modelBuilder.Entity("DoAn.Models.Review", b =>
                 {
-                    b.HasOne("cnpm.Models.Product", "Product")
+                    b.HasOne("DoAn.Models.Product", "Product")
                         .WithMany("Reviews")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("FK__Reviews__Product__4E88ABD4");
 
-                    b.HasOne("cnpm.Models.User", "User")
+                    b.HasOne("DoAn.Models.User", "User")
                         .WithMany("Reviews")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -362,19 +362,19 @@ namespace cnpm.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Order", b =>
+            modelBuilder.Entity("DoAn.Models.Order", b =>
                 {
                     b.Navigation("OrderDetails");
                 });
 
-            modelBuilder.Entity("cnpm.Models.Product", b =>
+            modelBuilder.Entity("DoAn.Models.Product", b =>
                 {
                     b.Navigation("OrderDetails");
 
                     b.Navigation("Reviews");
                 });
 
-            modelBuilder.Entity("cnpm.Models.User", b =>
+            modelBuilder.Entity("DoAn.Models.User", b =>
                 {
                     b.Navigation("ChatReceivers");
 

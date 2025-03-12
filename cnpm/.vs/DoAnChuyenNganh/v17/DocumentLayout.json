@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\StorageC#\\DoAn\\source\\cnpm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\views\\products\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\views\\products\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\models\\noithatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\models\\noithatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|d:\\storagec#\\doan\\source\\cnpm\\cnpm\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC0B48AB-655A-4D55-ACFC-467D44B3783F}|cnpm\\DoAn.csproj|solutionrelative:cnpm\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "cnpm\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "cnpm\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADsAAAAAAAAAAADwv1IAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T11:50:41.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "cnpm\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "cnpm\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T11:43:58.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Products\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "cnpm\\Views\\Products\\ProductDetail.cshtml",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Products\\ProductDetail.cshtml",
+              "RelativeToolTip": "cnpm\\Views\\Products\\ProductDetail.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAADgvycAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T11:41:08.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeToolTip": "cnpm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABf/wIA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-11T11:40:28.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoiThatDbContext.cs",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Models\\NoiThatDbContext.cs",
+              "RelativeDocumentMoniker": "cnpm\\Models\\NoiThatDbContext.cs",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Models\\NoiThatDbContext.cs",
+              "RelativeToolTip": "cnpm\\Models\\NoiThatDbContext.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAuwLcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:54:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "cnpm\\Models\\Product.cs",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Models\\Product.cs",
+              "RelativeToolTip": "cnpm\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:48:17.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "cnpm\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "cnpm\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T10:46:30.292Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

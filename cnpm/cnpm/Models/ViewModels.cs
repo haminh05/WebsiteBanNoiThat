@@ -1,4 +1,4 @@
-﻿namespace cnpm.Models.ViewModels
+﻿namespace DoAn.Models.ViewModels
 {
     public class ProductDetailViewModel
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace cnpm.Models;
+namespace DoAn.Models;
 
 public partial class Chat
 {

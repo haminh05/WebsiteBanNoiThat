@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using cnpm.Models;
+using DoAn.Models;
 
-namespace cnpm.Controllers
+namespace DoAn.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly BiaContext _context;
+        private readonly NoiThatDbContext _context;
 
-        public ProductsController(BiaContext context)
+        public ProductsController(NoiThatDbContext context)
         {
             _context = context;
         }

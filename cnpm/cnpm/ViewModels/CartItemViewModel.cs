@@ -1,4 +1,4 @@
-﻿namespace cnpm.ViewModels
+﻿namespace DoAn.ViewModels
 {
     public class CartItemViewModel
     {

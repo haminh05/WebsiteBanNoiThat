@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\StorageC#\\CN2\\cnpm\\cnpm\\cnpm.csproj": {}
+    "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\cnpm.csproj": {}
   },
   "projects": {
-    "D:\\StorageC#\\CN2\\cnpm\\cnpm\\cnpm.csproj": {
+    "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\cnpm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StorageC#\\CN2\\cnpm\\cnpm\\cnpm.csproj",
+        "projectUniqueName": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\cnpm.csproj",
         "projectName": "cnpm",
-        "projectPath": "D:\\StorageC#\\CN2\\cnpm\\cnpm\\cnpm.csproj",
+        "projectPath": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\cnpm.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\StorageC#\\CN2\\cnpm\\cnpm\\obj\\",
+        "outputPath": "D:\\StorageC#\\DoAn\\source\\cnpm\\cnpm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

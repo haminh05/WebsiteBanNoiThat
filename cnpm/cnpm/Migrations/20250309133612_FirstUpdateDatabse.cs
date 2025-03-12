@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace cnpm.Migrations
+namespace DoAn.Migrations
 {
     /// <inheritdoc />
     public partial class FirstUpdateDatabse : Migration
